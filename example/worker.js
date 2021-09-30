@@ -1,7 +1,7 @@
 const Ethermine = require('../src/index.js'); // use ethermine-api in production
 const ethermine = new Ethermine();
 
-let miner = "0x4bd46f005099d400768dc057c96a60180e891cf9";
+let miner = "0x86366c7edb0718d32a6a232f56c1c5a0b2437830";
 let worker = "051";
 
 ethermine.getMinerWorkers(miner, function(err,data){
